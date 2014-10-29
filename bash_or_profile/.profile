@@ -18,3 +18,5 @@ function proml {
   local     DEFAULT="\[\033[0m\]"
   PS1="[$LIGHT_GREEN\d \t $DEFAULT\u @ \W : $GREEN\$(parse_git_branch) $DEFAULT] \$ "
 }
+
+proml
